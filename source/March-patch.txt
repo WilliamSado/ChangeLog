@@ -1,0 +1,127 @@
+====================
+     2024-04-06
+====================
+* manifest
+99d4605 manifest: Track our GameSpace [WilliamSado]
+
+====================
+     2024-04-04
+====================
+* frameworks/base
+cd06d1d SystemUI: Add auto brightness button to QS brightness slider [SagarMakhar  maxwen  ezio84  Alex Cruz  Giuseppe  PMS22  JBCDroid2  jhenrique09  SpiritCroc  Adithya R]
+
+* packages/apps/Settings
+ae99bc4 Settings: Import vendor support [WilliamSado]
+
+====================
+     2024-04-04
+====================
+* packages/apps/Settings
+36b154e Settings: support per-app volume [3/3] [cjybyjk]
+ffab927 Settings: Reset props for status bar lyric [2/2] [cjybyjk]
+68e99df Settings: Add status bar lyric [2/2] [KujouYuko]
+
+====================
+     2024-04-03
+====================
+* frameworks/base
+457fa53 base: Add metric for Keli-UI Settings [QKIvan]
+
+====================
+     2024-04-02
+====================
+* frameworks/av
+8d24fd2 av: support per-app volume [1/3] [cjybyjk]
+
+* frameworks/base
+78d096a fixup! base: support per-app volume [2/3] [WilliamSado]
+a907f20 base: make per-app work with multi audio focus [eldainosor]
+5244f69 SystemUI: New per-app volume icon [ReallySnow]
+0484c68 base: support per-app volume [2/3] [cjybyjk]
+fd7e1e9 base: Reset props for status bar lyric [1/2] [cjybyjk]
+4ecdc72 [SQUASHED] base: Add status bar lyric for Android 14 [LynnrinChan AmeChanRain cjybyjk]
+
+* frameworks/native
+82a0b83 Native: Camera: Import Release Slot Xiaomi Changes [johnmart19]
+137cfa2 Native: IPCThreadState: Import Xiaomi Modifications [johnmart19]
+24e3e10 Native: ProducerListener: Import ON_BUFFER_DETACHED Changes [johnmart19]
+
+* manifest
+b5d9fca manifest: Track more [WilliamSado]
+
+* vendor/aosp
+4ccfbed aosp: If exitst [WilliamSado]
+f298a55 aosp: Add my device build support [WilliamSado]
+d220a23 aosp: Add addons support [WilliamSado]
+
+* vendor/pixel-framework
+50ff488 SettingsGoogle: support per-app volume [WilliamSado]
+da7de2d SettingsGoogle: Add status bar lyric [WilliamSado]
+
+
+====================
+     2024-03-31
+====================
+* frameworks/av
+925d2d5 libcameraservice: Fix printing [markakash]
+da26932 libcameraservice: Import Xiaomi DistortionMapper Modifications [johnmart19]
+c8a2a46 libcameraservice: Import Xiaomi Exif Camera Modifications [johnmart19]
+74c0890 libcameraservice: Import Xiaomi Modifications for vendor tags [johnmart19]
+268c6ef frameworks/av: Import Xiaomi Image Tags defenitions [johnmart19]
+0f499cb camera: Don't segfault if we get a NULL parameter [hyperb1iss]
+0830bd0 Camera: Add support for preview frame fd [Susmitha Gummalla]
+6e08ebb Av: Camera: Import Xiaomi BufferProducerDetachListener changes [johnmart19]
+b4c303e camera: include: Don't override possible overlayed header [bgcngm]
+dc4f31d Camera: Call corresponding unlock for every lockAsync [shuzhenwang]
+
+* vendor/pixel-frameworks
+8e2f1dc tmp [WilliamSado]
+
+====================
+     2024-03-30
+====================
+* frameworks/base
+938faaa fixup! base: add API for disabling gestural navigation [WilliamSado]
+46139ac base: Add three-fingers-swipe to screenshot [1/2] [Tobias Merkel  Omkar Chandorkar]
+3cadf9a base: Rework lock gesture feature [cjh1249131356]
+
+* packages/apps/Settings
+47acfd2 Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+
+* vendor/pixel-frameworks
+344fb24 SettingsGoogle: Add three-fingers-swipe to screenshot [WilliamSado]
+b155b81 FrameworksGoogle: add API for disabling gestural navigation [johnmart19]
+
+====================
+     2024-03-29
+====================
+* frameworks/base
+6e2c3d4 fixup! base: add API for disabling gestural navigation [WilliamSado]
+19aa67f GamesPropsUtils: Update packages list [GustavoMends]
+a1021a1 base: Introduce GamesPropsUtils [GustavoMends]
+e4dcbe5 base: add API for disabling gestural navigation [ezio84]
+04e8bbf GameManagerService: Set device_config property on behalf of GameSpace [Dhina17]
+123b951 SystemUI: Follow light/dark theme in power menu [kdrag0n]
+db43f73 SystemUI: Add support for GameSpace [nullxception]
+
+* packages/apps/Settings
+2316bf7 Settings: Add Game Space support [alanndz  Gustavo Mendes]
+
+====================
+     2024-03-28
+====================
+* frameworks/base
+940bf63 SystemUI: BatteryStatusChip: Always use dark text [kaz205]
+7b591b6 SystemUI: Follow light/dark theme in SplitShade Header [Col_or  ReallySnow]
+d337730 fwb: SystemUI: Set qs bottom drawable footer color to transparent [iKeramat]
+11b8bb8 SystemUI: BatteryMeterView: Set white tint in darkmode [althafvly]
+79e573b SystemUI: Re-inflate QS and SB when CONFIG_SCREEN_LAYOUT [althafvly]
+70ee518 SystemUI: QSCustomizer: Fix QS tile reset text color [althafvly]
+accf5ce SystemUI: Remove qs actions footer background [BladeRunner-A2C]
+e2aa64d SystemUI: Reset to textColorPrimaryInverse for light theme [XayahSuSuSu]
+ffe88ce SystemUI: Always refresh power menu on UI mode change [kdrag0n]
+60c953f SystemUI: Add dual-tone light and dark themes for QS [kdrag0n]
+019f798 SystemUI: Initialize QS tiles in inactive state [kdrag0n]
+eb7a80e SystemUI: Follow light/dark theme in quick settings [kdrag0n]
+7af0cd5 Revert "Do not re-inflate QS and SB when CONFIG_UI_MODE" [kdrag0n]
+562929e Revert "Make QS always use dark theme colors" [kdrag0n]

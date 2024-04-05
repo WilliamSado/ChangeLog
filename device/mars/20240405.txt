@@ -1,0 +1,8 @@
+ ====================
+     2024-03-30
+====================
+* device/xiaomi/mars
+3ce9d8e mars: Add miuicamera support [WilliamSado]
+
+* device/xiaomi/sm8350-common
+e4b0d01 sm8350-common: Lable Miuicamera sepolicy [WilliamSado]
